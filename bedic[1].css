@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #FFF0F0; /* light shade of peach */
+    line-height: 1.6;
+  }
+  
+  .product-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-gallery {
+    flex: 1;
+    padding-right: 2rem;
+  }
+  
+  .product-gallery img {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+  }
+  
+  .product-info {
+    flex: 2;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: .5rem;
+  }
+  
+  .item-code {
+    margin-bottom: 1rem;
+    color: #777;
+    font-style: italic;
+  }
+  
+  .product-pricing {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1rem;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #777;
+    margin-right: .5rem;
+  }
+  
+  .sale-price {
+    color: #E63946;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .purchase-info {
+    margin-bottom: 2rem;
+  }
+  
+  input[type="number"] {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    margin-right: 1rem;
+    width: 60px;
+  }
+  
+  button {
+    background-color: #E9B4B4; /* light peach shade */
+    color: #333;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 0.5rem; /* ensures spacing between buttons when stacked */
+  }
+  
+  button:hover {
+    background-color: #DAA1A1; /* slightly darker peach for hover */
+  }
+  
+  .add-to-cart,
+  .buy-now {
+    display: block; /* makes buttons stack */
+  }
+  
+  .product-description p {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .product-container {
+      flex-direction: column;
+    }
+  
+    .product-gallery {
+      margin-bottom: 1rem;
+    }
+  
+    .product-info {
+      flex: 1;
+    }
+  }
+  

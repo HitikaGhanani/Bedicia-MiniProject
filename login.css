@@ -1,0 +1,191 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',serif;
+    background-color: #ffffff34;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+    padding-right: 50px;
+    background-image: url("D:/jigyansh/miniproject/bgmp2.jpeg");
+background-position: 0%;
+}
+
+.sign-up-form {
+    width: 300px;
+    height: 460px;
+    background: #fffbf9;
+    padding: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: rgb(255, 145, 145);
+    padding-bottom: 50px;
+}
+
+
+.sign-up-form h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-group label {
+    margin-bottom: 0;
+}
+
+.checkbox-group label a {
+    color: rgb(255, 145, 145);
+    text-decoration: none;
+}
+
+.checkbox-group label a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 16px;
+    background-color: rgb(255, 145, 145);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.15s ease-in;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(251, 191, 191);
+}
+
+.login-pic{
+    display: flex;
+    
+    margin-right: 5rem;
+}sStyle.css
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',serif;
+    background-color: #ffffff34;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+    padding-right: 50px;
+    background-image: url("D:/jigyansh/miniproject/bgmp2.jpeg");
+background-position: 0%;
+}
+
+.sign-up-form {
+    width: 300px;
+    height: 460px;
+    background: #fffbf9;
+    padding: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: rgb(255, 145, 145);
+    padding-bottom: 50px;
+}
+
+
+.sign-up-form h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-group label {
+    margin-bottom: 0;
+}
+
+.checkbox-group label a {
+    color: rgb(255, 145, 145);
+    text-decoration: none;
+}
+
+.checkbox-group label a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 16px;
+    background-color: rgb(255, 145, 145);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.15s ease-in;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(251, 191, 191);
+}
+
+.login-pic{
+    display: flex;
+    
+    margin-right: 5rem;
+}
